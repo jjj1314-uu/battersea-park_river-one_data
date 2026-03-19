@@ -10,7 +10,7 @@ async function setup() {
 }
 
 function draw() {
-background(103, 124, 153);
+background(204, 255, 229);
 //console.log(cols[0])
 //fill("rgb(93, 176, 212)")
 let cent = 750
