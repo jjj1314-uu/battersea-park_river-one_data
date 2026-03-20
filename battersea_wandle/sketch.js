@@ -11,6 +11,8 @@ async function setup() {
 
 function draw() {
 background(162, 230, 252);
+//console.log(cols[0])
+//fill("rgb(93, 176, 212)")
 let cent = 750
 let peak = 700
     let numRows = battersea.getRowCount();
@@ -496,7 +498,7 @@ if (i==2 || i==13 || i==22 || i==31 || i==38 || i==44 || i==50 || i==56 || i==69
     stroke(200, 0, 0, 150); 
         line(y, x, Y+10, X);
 } else {
-        stroke(200, 50);
+        stroke(0, 153, 255, 100);
         line(y, x, Y, X);
 
 }
@@ -528,7 +530,7 @@ text('20', loca, 223 + gap*186);
 
 }
 noStroke()
-fill(103, 124, 153, 50);
+fill(162, 230, 252, 50);
 rect(400, 150, 690, 70);
 rect(400, 40, 690, 180);
 rect(400, 1244, 690, 86);
@@ -595,6 +597,7 @@ text(`1.1
 text(`1
 1
 1`, 767, 1350);
+fill(0)
 text(`MIN
 MAX
 MODE`, 340, 1350);
