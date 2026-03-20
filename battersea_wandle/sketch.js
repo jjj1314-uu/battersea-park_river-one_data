@@ -10,9 +10,7 @@ async function setup() {
 }
 
 function draw() {
-background(91, 177, 255);
-//console.log(cols[0])
-//fill("rgb(93, 176, 212)")
+background(162, 230, 252);
 let cent = 750
 let peak = 700
     let numRows = battersea.getRowCount();
